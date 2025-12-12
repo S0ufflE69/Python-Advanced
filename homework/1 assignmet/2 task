@@ -1,0 +1,2 @@
+a,b,c = int(input("Salary1:")), int(input("Salary2:")), int(input("Salary3:"))
+print( max(a,b,c)- min (a,b,c))
