@@ -1,0 +1,4 @@
+f,l,age,phone = input("Your name? "),input("Your last name? "),int(input("How old are you? ")),int(input("Your phone number? "))
+print("Your name, last name:", f, l)
+print("Age:", age)
+print("Phone number:", phone)
