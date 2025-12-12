@@ -1,0 +1,14 @@
+First_n, Op, Second_n = float(input()), input(), float(input())
+
+if Op == "+":
+    print(First_n + Second_n)
+elif Op == "-":
+    print(First_n - Second_n)
+elif Op == "*":
+    print(First_n * Second_n)
+elif Op == "/":
+    print(First_n / Second_n)
+elif Op == "^":
+    print(pow(First_n, Second_n) )
+else:
+    print("naHHH")
