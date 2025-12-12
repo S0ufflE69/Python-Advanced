@@ -1,0 +1,2 @@
+A= int(input())
+print("Answer is:", int((A-8*2)/(5*2)) )
