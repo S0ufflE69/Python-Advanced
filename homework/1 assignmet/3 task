@@ -1,0 +1,4 @@
+a= input()
+b,c= a.split(".")
+n_n = float(c + "." + b)
+print(n_n)
