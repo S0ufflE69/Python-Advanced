@@ -1,0 +1,4 @@
+A , N= input() , int(input())
+
+for D in A:
+    print(D * N)
