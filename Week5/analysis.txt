@@ -1,0 +1,5 @@
+Lines: 1
+Words: 2
+Word frequency:
+hello: 1
+arai: 1
