@@ -10,19 +10,18 @@ class Employee:
 
 
 class Manager(Employee):
+    def __init__(self, salary, bonus=1000):
+        super().__init__(salary)  
+        self._bonus = bonus      
+
+    def get_salary(self):
+        return self._salary + self._bonus 
     def get_role(self):
         return "Manager"
 
-    def get_bonus(self):
-        return 1000
-
-
-def show_all(workers):
-    for w in workers:
-        print(w.get_role(), "-", w.get_salary())
-
 
 e1 = Employee(3000)
-e2 = Manager(5000)
+m1 = Manager(3000)
 
-show_all([e1, e2])
+print(e1.get_salary())  
+print(m1.get_salary())  
