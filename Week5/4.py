@@ -20,8 +20,9 @@ class Manager(Employee):
         return "Manager"
 
 
-e1 = Employee(3000)
-m1 = Manager(3000)
+e1 = Employee(2000)
+m1 = Manager(2000)
 
 print(e1.get_salary())  
 print(m1.get_salary())  
+
